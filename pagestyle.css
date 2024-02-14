@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #16191e;
+    
+}
+
+.header {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    font-size: 60pt;
+    font-family: oswald;
+    color: wheat;
+    
+    
+}
+
+
+/* 여기부터 메뉴 css*/
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: wheat;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.con {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   
+}
+.menuBar > ul > li {
+    display: inline-block;
+  }
+
+.menuBar > ul {
+    text-align: center;
+}
+
+.menuBar > ul > li > a {
+    display: block;
+    font-size: 12pt;
+    padding: 10px 50px;
+}
+
+.menuBar > ul > li:hover > a {
+    color: rgb(255, 255, 255);
+   
+  }
